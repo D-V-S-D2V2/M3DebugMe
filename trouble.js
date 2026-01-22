@@ -1,12 +1,15 @@
 let v1 = 3;
 let v2 = 4;
 alert("3 times 4 = " + v1 * v2);
+// typed equal instead of in string and it was a comment
 
  // This sets the general styling for the divs within the section tag using .style
             let section = document.getElementById("s1");
+            // had an extra s in getElementById
             section.style.width = "50%";
             section.style.textAlign = "center";
             section.style.fontFamily = "arial, serif";
+            // I forgot which one but one of these was misspelled
             section.style.fontWeight = "bold";
             section.style.fontStyle = "italic";
             section.style.fontSize = "20px";
@@ -32,6 +35,7 @@ alert("3 times 4 = " + v1 * v2);
             yellow.style.backgroundColor = "yellow";
 
             // GREEN
+            // this is was indigo instead of green
             const green = document.getElementById("green");
             green.innerHTML = "GREEN";
             green.style.backgroundColor = "green";
@@ -47,3 +51,5 @@ alert("3 times 4 = " + v1 * v2);
             violet.style.backgroundColor = "violet";
 
             //added semicolon at the end of each statement
+
+            // for some reason the other comments are not showing
